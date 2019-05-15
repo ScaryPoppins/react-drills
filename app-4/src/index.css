@@ -2,4 +2,33 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: lightgray;
+}
+button{
+  background-color: gray;
+  border-radius: 50%;
+  height: 5vh;
+  width: 5vh;
+  border: 1.5px solid pink;
+  margin-left: 1vw;
+}
+input{
+  margin: 1vw;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+div{
+margin-top: 10vh;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: pink;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: pink;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: pink;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: pink;
 }
